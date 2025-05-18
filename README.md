@@ -18,16 +18,17 @@ A simple and modern blog management system where users can create, edit, and del
 
 ## Screenshots
 
-![Home Page](https://github.com/user-attachments/assets/0f7ab10f-906a-4c16-a399-e1a04760c392)
+![Home Page]![image](https://github.com/user-attachments/assets/30f2d377-01f8-491a-af7d-619c94231a07)
+![image](https://github.com/user-attachments/assets/6a6bbe79-9a99-4618-8130-3c170350f49e)
+
+
 
 # 🛠️ Installation
-```markdown
-#Clone the repository
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/blog-manager.git
 
 # Navigate into the directory
-```bash
 cd blog-manager
 
 # Install dependencies for the client and server
@@ -40,10 +41,13 @@ cp .env.example .env
 🧪 Running the App
 # Start the backend server
 cd server
-node server.js 
+node server.js
 
 # Start the frontend React app
 cd ../myblogs
 npm start
+
+# If it doesn't work with "npm run start" add the following line to the scripts section of package.json
+"start": "react-scripts start",
 
 
