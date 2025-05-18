@@ -21,7 +21,7 @@ A simple and modern blog management system where users can create, edit, and del
 ![Home Page](https://github.com/user-attachments/assets/0f7ab10f-906a-4c16-a399-e1a04760c392)
 
 # 🛠️ Installation
-
+```markdown
 #Clone the repository
 ```bash
 git clone https://github.com/yourusername/blog-manager.git
